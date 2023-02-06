@@ -1,0 +1,1 @@
+https://github.com/luismoriguerra/pscale-auth0-next-stack
