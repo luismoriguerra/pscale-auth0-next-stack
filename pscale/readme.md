@@ -1,0 +1,1 @@
+https://planetscale.com/docs/reference/planetscale-cli
