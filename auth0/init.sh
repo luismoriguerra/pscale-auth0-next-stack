@@ -1,0 +1,5 @@
+export TF_VAR_auth0_domain=
+export TF_VAR_auth0_client_id=
+export TF_VAR_auth0_client_secret=
+
+terraform init

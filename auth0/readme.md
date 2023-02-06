@@ -12,3 +12,4 @@ export TF_VAR_auth0_client_secret=
 source:
 Note: this blog is legacy implementation. it needs to verify terraform auth0 provider documentation for latest implementation.
 https://auth0.com/blog/use-terraform-to-manage-your-auth0-configuration/
+https://auth0.com/docs/quickstart/webapp/nextjs/01-login

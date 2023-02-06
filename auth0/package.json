@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "init": "terraform init",
+    "plan": "terraform plan",
+    "predeploy": "terraform validate && terraform plan",
+    "deploy": "terraform apply --auto-approve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

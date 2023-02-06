@@ -29,7 +29,8 @@ resource "auth0_client" "dorisappclient" {
   name            = "dorisappclient"
   description     = "test app doris client for auth0"
   app_type        = "regular_web"
-  callbacks       = ["http://localhost:3000/callback"]
+  allowed_logout_urls = [ "http://localhost:3000" ]
+  callbacks       = ["http://localhost:3000/callback", "http://localhost:3000/api/auth/callback"]
   oidc_conformant = true
 
   jwt_configuration {
